@@ -7,7 +7,7 @@
     {
       "questID": 0,
       "name": "How to trade",
-      "description": "Build a Trader.\nWhile the first recipes need no energy to run, the trade needs a little power to start up. For that place the battery into the middle slot in the inventory(invisible in GUI)",
+      "description": "Build a Trader.\nWhile the first recipes need no energy to run, the trade needs a little power to start up. For that place the battery into the middle slot in the inventory(invisible in GUI).\nMake sure to build a roof above the trader. Like all GT machines using electricy, it will catch fire when getting weg from rain. Protect the top and all four sides!",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -165,7 +165,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": -1,
+      "repeatTime": 4800,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -179,8 +179,54 @@
         "Damage": 0
       },
       "visibility": "NORMAL",
-      "tasks": [],
-      "rewards": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 32001
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "minecraft:clay",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:dirt",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:sand",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:string",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
       "preRequisites": [
         0
       ]
@@ -1437,8 +1483,8 @@
     {
       "questID": 19,
       "name": "Low Voltage",
-      "description": "Quests not ready after this point.",
-      "isMain": false,
+      "description": "The first GregTech power production. Insert steam to generate up to 32EU/t.",
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -1464,20 +1510,32 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
+          "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "gregtech:gt.metaitem.01",
-              "Count": 10000,
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
               "OreDict": "",
-              "Damage": 11129
+              "Damage": 1120
             }
           ],
           "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 32002
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         29,
         74,
@@ -2560,8 +2618,8 @@
     {
       "questID": 34,
       "name": "Aluminium",
-      "description": "No Description",
-      "isMain": false,
+      "description": "The next metal needed for GregTech. Medium Voltage machines are based on aluminium.",
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -2583,17 +2641,51 @@
         "Damage": 11019
       },
       "visibility": "NORMAL",
-      "tasks": [],
-      "rewards": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 11019
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32003
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 12
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
-        19
+        90
       ]
     },
     {
       "questID": 35,
       "name": "Stainless Steel",
-      "description": "No Description",
-      "isMain": false,
+      "description": "no more quests implemented",
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -2615,7 +2707,23 @@
         "Damage": 11306
       },
       "visibility": "NORMAL",
-      "tasks": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmetal5",
+              "Count": 1000,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
       "rewards": [],
       "preRequisites": [
         34
@@ -2890,7 +2998,19 @@
           "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 32002
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         14
       ]
@@ -2962,7 +3082,7 @@
     {
       "questID": 43,
       "name": "Starting with Rotarycraft",
-      "description": "No Description",
+      "description": "Get some Rotarycraft Ethanol Crystals.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -2985,10 +3105,72 @@
         "Damage": 0
       },
       "visibility": "NORMAL",
-      "tasks": [],
-      "rewards": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "RotaryCraft:rotarycraft_item_engine",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "RotaryCraft:rotarycraft_item_machine",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "RotaryCraft:rotarycraft_item_yeast",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "RotaryCraft:rotarycraft_item_ethanol",
+              "Count": 256,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32003
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
-        36
+        91
       ]
     },
     {
@@ -3131,7 +3313,19 @@
           "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 32001
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         6
       ]
@@ -4721,7 +4915,7 @@
       "questID": 69,
       "name": "Wires",
       "description": "Wires transfer electricity and are crafting components for many electric machines.",
-      "isMain": false,
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -4843,8 +5037,8 @@
     },
     {
       "questID": 71,
-      "name": "New Quest",
-      "description": "No Description",
+      "name": "Rotors",
+      "description": "One of the most complex and annoyingly to craft parts are rotors. Best you make a few of them at once.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -4861,23 +5055,96 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "minecraft:nether_star",
+        "id": "gregtech:gt.metaitem.02",
         "Count": 1,
         "OreDict": "",
-        "Damage": 0
+        "Damage": 21057
       },
       "visibility": "NORMAL",
-      "tasks": [],
-      "rewards": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 10,
+              "OreDict": "ringTin",
+              "Damage": 28057
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 20,
+              "OreDict": "boltTin",
+              "Damage": 26057
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 10,
+              "OreDict": "screwTin",
+              "Damage": 27057
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.02",
+              "Count": 10,
+              "OreDict": "rotorTin",
+              "Damage": 21057
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 32002
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         67
       ]
     },
     {
       "questID": 72,
-      "name": "New Quest",
-      "description": "No Description",
-      "isMain": false,
+      "name": "Circuitry",
+      "description": "Electrical machines need more complex controls, so ciruits are needed.",
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -4893,22 +5160,64 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "minecraft:nether_star",
+        "id": "IC2:itemPartCircuit",
         "Count": 1,
         "OreDict": "",
         "Damage": 0
       },
       "visibility": "NORMAL",
-      "tasks": [],
-      "rewards": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "circuitPrimitive",
+              "Damage": 32700
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemPartCircuit",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 32002
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
-        69
+        69,
+        73
       ]
     },
     {
       "questID": 73,
-      "name": "New Quest",
-      "description": "No Description",
+      "name": "Insulation",
+      "description": "To use wires, in most cases they need to be insulated. The early, low voltages use paper or wool as insulation. From medium voltage up rubber is used.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -4925,22 +5234,83 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "minecraft:nether_star",
+        "id": "gregtech:gt.blockmachines",
         "Count": 1,
         "OreDict": "",
-        "Damage": 0
+        "Damage": 2006
       },
       "visibility": "NORMAL",
-      "tasks": [],
-      "rewards": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:carpet",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 15
+            },
+            {
+              "id": "minecraft:string",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:paper",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 2006
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 1246
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32002
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         69
       ]
     },
     {
       "questID": 74,
-      "name": "New Quest",
-      "description": "No Description",
+      "name": "Components",
+      "description": "Components are needed for all electric GregTech machines. Some can also get attached to the machines sides to transfer items or fluids.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -4957,14 +5327,79 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "minecraft:nether_star",
+        "id": "gregtech:gt.metaitem.01",
         "Count": 1,
         "OreDict": "",
-        "Damage": 0
+        "Damage": 32600
       },
       "visibility": "NORMAL",
-      "tasks": [],
-      "rewards": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32600
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32630
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32610
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32650
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32002
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         69,
         70,
@@ -5011,8 +5446,8 @@
     },
     {
       "questID": 76,
-      "name": "Casts",
-      "description": "To make metal tools with Tinkers, casts are needed. To make Casts, you need gold or aluminumbrass. Gold is too expensive at this point, so best get some aluminumbrass.",
+      "name": "Auto Cobble",
+      "description": "Many early things need cobblestone. And that in huge amounts. Mining it all will be hard work, so best automate this process.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -5029,7 +5464,1202 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "TConstruct:blankPattern",
+        "id": "progressiveautomation:CobbleUpgrade",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "progressiveautomation:MinerIron",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:iron_pickaxe",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "progressiveautomation:CobbleUpgrade",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        0
+      ]
+    },
+    {
+      "questID": 77,
+      "name": "Limited Progressive Automation Macines",
+      "description": "There are some Machines from progressive automation you can not craft. Only this quest lets you aquire them.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "progressiveautomation:Killer",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32002
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "progressiveautomation:Killer",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "progressiveautomation:Planter",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        46
+      ]
+    },
+    {
+      "questID": 78,
+      "name": "Trees",
+      "description": "Can\u0027t find some trees? Buy saplings. Just a bit expensive.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 12000,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:sapling",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32003
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "minecraft:sapling",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:sapling",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "minecraft:sapling",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "minecraft:sapling",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "minecraft:sapling",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "minecraft:sapling",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "IC2:blockRubSapling",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        2
+      ]
+    },
+    {
+      "questID": 79,
+      "name": "Plants",
+      "description": "All the plants you might not find.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 4800,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:pumpkin_seeds",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 32002
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "minecraft:cactus",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:reeds",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:dye",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "minecraft:pumpkin_seeds",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:melon_seeds",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:carrot",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:potato",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        2
+      ]
+    },
+    {
+      "questID": 80,
+      "name": "Battery Hulls",
+      "description": "Batteries store energy. To make them you need battery hulls made from battery alloy.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32500
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32500
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 32002
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 128,
+              "OreDict": "",
+              "Damage": 2805
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        19
+      ]
+    },
+    {
+      "questID": 81,
+      "name": "Material saving",
+      "description": "Many electric machines can process materials much more efficient. Set them up.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 221
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 551
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 351
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 221
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 291
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 251
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 281
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 421
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32003
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 2034
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        19
+      ]
+    },
+    {
+      "questID": 82,
+      "name": "More Electric Machines",
+      "description": "There are even more machines needed for GT on this voltage.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 211
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 211
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 441
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 261
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 241
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 271
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 511
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 521
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 651
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 32003
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        81
+      ]
+    },
+    {
+      "questID": 83,
+      "name": "More Energy Sources",
+      "description": "There is more than steam to produce Energy.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1110
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1110
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1115
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 32002
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        19
+      ]
+    },
+    {
+      "questID": 84,
+      "name": "Filling Machines",
+      "description": "Put stuff into other stuff.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 231
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 231
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 431
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32003
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        80
+      ]
+    },
+    {
+      "questID": 85,
+      "name": "Energy Storage Blocks",
+      "description": "The energy needs to be stored somethere beween generators and machines. That place is here.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 161
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 171
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32002
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        80
+      ]
+    },
+    {
+      "questID": 86,
+      "name": "Different Battery Types",
+      "description": "There are different types of batterys with different storage volumes made from different materials.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32518,
+        "tag": {
+          "GT.ItemCharge:4": 100000
+        }
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:itemBatREDischarged",
+              "Count": 1,
+              "OreDict": "batteryBasic",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32517
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32518
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32519
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 2006
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32518
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 32510,
+              "tag": {
+                "GT.ItemCharge:4": 18000
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 12,
+              "OreDict": "",
+              "Damage": 32002
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        85,
+        84
+      ]
+    },
+    {
+      "questID": 87,
+      "name": "Methan",
+      "description": "Centrifuge raw meat to turn it into methan.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 30715
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "consume": true,
+          "autoConsume": false,
+          "requiredFluids": [
+            {
+              "FluidName": "methane",
+              "Amount": 16000
+            }
+          ],
+          "taskID": "bq_standard:fluid"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 32002
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        83
+      ]
+    },
+    {
+      "questID": 88,
+      "name": "Large Boiler",
+      "description": "Instead of many small boilers, build one huge multiblock and have steam enough for long. It can also burn semifluids (creosote) besides solid fuels.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1020
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1020
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 90
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 71
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 51
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 61
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 91
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 32002
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        83
+      ]
+    },
+    {
+      "questID": 89,
+      "name": "Bio Gas",
+      "description": "Produce IC2 Biomass from plant balls and turn them into biogas.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IC2:itemCellEmpty",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 7
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "consume": true,
+          "autoConsume": false,
+          "requiredFluids": [
+            {
+              "FluidName": "ic2biogas",
+              "Amount": 100000
+            }
+          ],
+          "taskID": "bq_standard:fluid"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 32002
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        83
+      ]
+    },
+    {
+      "questID": 90,
+      "name": "Electric Blast Furnace(EBF)",
+      "description": "Melting advanced metals and alloys needs more than a smeltery. Build a Electric Blast Furnace to advance your technology.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1000
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1000
+            },
+            {
+              "id": "gregtech:gt.blockcasings",
+              "Count": 9,
+              "OreDict": "",
+              "Damage": 11
+            },
+            {
+              "id": "gregtech:gt.blockcasings5",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 41
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 71
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 81
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 90
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 91
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32003
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        81
+      ]
+    },
+    {
+      "questID": 91,
+      "name": "HSLA Steel",
+      "description": "Rotarycraft machines need high quality HSLA Steel. Make it in the EBF and you can finally beginn with Rotarycraft.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "RotaryCraft:rotarycraft_item_shaftcraft",
         "Count": 1,
         "OreDict": "",
         "Damage": 1
@@ -5041,18 +6671,435 @@
           "ignoreNBT": false,
           "consume": true,
           "autoConsume": false,
-          "requiredItems": [],
+          "requiredItems": [
+            {
+              "id": "RotaryCraft:rotarycraft_item_shaftcraft",
+              "Count": 32,
+              "OreDict": "ingotHSLA",
+              "Damage": 1
+            }
+          ],
           "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [
         {
-          "rewards": [],
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32003
+            },
+            {
+              "id": "RotaryCraft:rotarycraft_item_meter",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "RotaryCraft:rotarycraft_item_screwdriver",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
           "rewardID": "bq_standard:item"
         }
       ],
       "preRequisites": [
-        9
+        90
+      ]
+    },
+    {
+      "questID": 92,
+      "name": "Advanced Tool Alloys",
+      "description": "These Alloys are a huge step forward for your tools. Vanadium Steel will have the highest durability for some time and Blue Steel is a good all around material you can use often.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 11349
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 11371
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 11349
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 32003
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        90
+      ]
+    },
+    {
+      "questID": 93,
+      "name": "Magneticraft",
+      "description": "Now that you have Vanadiumsteel, you can start with Magneticraft. This gives you advanced oreprocessing and access to plastic.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Magneticraft:chasis",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "Magneticraft:item.ingotCarbide",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Magneticraft:machine_housing",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32003
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        92
+      ]
+    },
+    {
+      "questID": 94,
+      "name": "Plastic",
+      "description": "Produce Plastic, advance in tech.\nBuy any Oil, distill into sulfuric Naphta, remove sulfur, use in polymizer to get Polyethylene.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "platePlastic",
+        "Damage": 17874
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "Magneticraft:polimerizer_control",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 128,
+              "OreDict": "",
+              "Damage": 11874
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32003
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        93
+      ]
+    },
+    {
+      "questID": 95,
+      "name": "Ore Processing",
+      "description": "Many steps of GregTech Oreprocessing has been moved over to Magneticraft multiblocks. Using them you can process ores far more efficient and it is cheaper to process ore instead of buying processed materials.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Magneticraft:grinder_control",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "Magneticraft:crusher_control",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Magneticraft:grinder_control",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Magneticraft:sifter_control",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 32003
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        93
+      ]
+    },
+    {
+      "questID": 96,
+      "name": "Machine part Shop",
+      "description": "There are some machineparts you need early but can\u0027t yet produce. ",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 1200,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Forestry:thermionicTubes",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32002
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "Forestry:thermionicTubes",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        11
+      ]
+    },
+    {
+      "questID": 97,
+      "name": "Smashing",
+      "description": "Before machines getting gravel and sand needs to be found by mining or use smashing rocks to process cobble from the cobblegen.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "chisel:smashingrock",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "chisel:smashingrock",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 32001
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        76
       ]
     }
   ],
@@ -5113,7 +7160,7 @@
         },
         {
           "id": 15,
-          "x": 126,
+          "x": 84,
           "y": 84
         },
         {
@@ -5128,7 +7175,7 @@
         },
         {
           "id": 29,
-          "x": 126,
+          "x": 84,
           "y": 126
         },
         {
@@ -5158,7 +7205,7 @@
         },
         {
           "id": 55,
-          "x": 168,
+          "x": 126,
           "y": 126
         },
         {
@@ -5168,13 +7215,43 @@
         },
         {
           "id": 68,
-          "x": 84,
+          "x": 42,
           "y": 126
         },
         {
           "id": 75,
           "x": 294,
           "y": 42
+        },
+        {
+          "id": 76,
+          "x": 210,
+          "y": 84
+        },
+        {
+          "id": 77,
+          "x": 252,
+          "y": 84
+        },
+        {
+          "id": 78,
+          "x": 210,
+          "y": 126
+        },
+        {
+          "id": 79,
+          "x": 168,
+          "y": 126
+        },
+        {
+          "id": 96,
+          "x": 126,
+          "y": 84
+        },
+        {
+          "id": 97,
+          "x": 252,
+          "y": 126
         }
       ]
     },
@@ -5184,143 +7261,223 @@
       "quests": [
         {
           "id": 18,
-          "x": 186,
+          "x": 252,
           "y": 0
         },
         {
           "id": 19,
-          "x": 0,
+          "x": 66,
           "y": 30
         },
         {
           "id": 20,
-          "x": 186,
+          "x": 252,
           "y": 30
         },
         {
           "id": 21,
-          "x": 186,
+          "x": 252,
           "y": 60
         },
         {
           "id": 22,
-          "x": 156,
+          "x": 222,
           "y": 0
         },
         {
           "id": 23,
-          "x": 156,
+          "x": 222,
           "y": 30
         },
         {
           "id": 24,
-          "x": 156,
+          "x": 222,
           "y": 60
         },
         {
           "id": 25,
-          "x": 186,
+          "x": 252,
           "y": 90
         },
         {
           "id": 26,
-          "x": 186,
+          "x": 252,
           "y": 120
         },
         {
           "id": 27,
-          "x": 186,
+          "x": 252,
           "y": 150
         },
         {
           "id": 28,
-          "x": 186,
+          "x": 252,
           "y": 180
         },
         {
           "id": 31,
-          "x": 156,
-          "y": 180
+          "x": 210,
+          "y": 234
         },
         {
           "id": 32,
-          "x": 156,
-          "y": 150
+          "x": 210,
+          "y": 204
         },
         {
           "id": 34,
-          "x": 66,
-          "y": 150
+          "x": 114,
+          "y": 186
         },
         {
           "id": 35,
-          "x": 96,
-          "y": 150
+          "x": 168,
+          "y": 186
         },
         {
           "id": 36,
-          "x": 126,
-          "y": 150
+          "x": 168,
+          "y": 234
         },
         {
           "id": 41,
-          "x": 96,
-          "y": 180
+          "x": 114,
+          "y": 234
         },
         {
           "id": 43,
-          "x": 156,
-          "y": 120
+          "x": 0,
+          "y": 144
         },
         {
           "id": 44,
-          "x": 126,
-          "y": 180
+          "x": 240,
+          "y": 234
         },
         {
           "id": 45,
-          "x": 66,
-          "y": 180
+          "x": 78,
+          "y": 234
         },
         {
           "id": 54,
-          "x": 36,
+          "x": 138,
           "y": 150
         },
         {
           "id": 67,
-          "x": 120,
+          "x": 186,
           "y": 30
         },
         {
           "id": 69,
-          "x": 84,
+          "x": 150,
           "y": 0
         },
         {
           "id": 70,
-          "x": 84,
+          "x": 150,
           "y": 30
         },
         {
           "id": 71,
-          "x": 84,
+          "x": 150,
           "y": 60
         },
         {
           "id": 72,
-          "x": 48,
+          "x": 114,
           "y": 0
         },
         {
           "id": 73,
-          "x": 48,
+          "x": 114,
           "y": 30
         },
         {
           "id": 74,
-          "x": 48,
+          "x": 114,
           "y": 60
+        },
+        {
+          "id": 80,
+          "x": 30,
+          "y": 30
+        },
+        {
+          "id": 81,
+          "x": 66,
+          "y": 66
+        },
+        {
+          "id": 82,
+          "x": 66,
+          "y": 102
+        },
+        {
+          "id": 83,
+          "x": 30,
+          "y": 66
+        },
+        {
+          "id": 84,
+          "x": 30,
+          "y": 0
+        },
+        {
+          "id": 85,
+          "x": 0,
+          "y": 30
+        },
+        {
+          "id": 86,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": 87,
+          "x": 0,
+          "y": 66
+        },
+        {
+          "id": 88,
+          "x": 0,
+          "y": 96
+        },
+        {
+          "id": 89,
+          "x": 30,
+          "y": 96
+        },
+        {
+          "id": 90,
+          "x": 102,
+          "y": 126
+        },
+        {
+          "id": 91,
+          "x": 42,
+          "y": 144
+        },
+        {
+          "id": 92,
+          "x": 162,
+          "y": 108
+        },
+        {
+          "id": 93,
+          "x": 204,
+          "y": 108
+        },
+        {
+          "id": 94,
+          "x": 204,
+          "y": 150
+        },
+        {
+          "id": 95,
+          "x": 186,
+          "y": 72
         }
       ]
     },

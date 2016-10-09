@@ -5188,22 +5188,21 @@ OpenComputers:waypoint:0, Waypoint
 OpenComputers:endstone:0, End Stone
 OpenComputers:netSplitter:0, Net Splitter
 OpenComputers:transposer:0, Transposer
+progressiveautomation:Miner, Wooden Miner
+progressiveautomation:MinerStone, Stone Miner
+progressiveautomation:MinerIron, Iron Miner
 progressiveautomation:Planter, Wooden Planter
 progressiveautomation:PlanterStone, Stone Planter
 progressiveautomation:PlanterIron, Iron Planter
-progressiveautomation:PlanterDiamond, Diamond Planter
 progressiveautomation:Crafter, Wooden Crafter
 progressiveautomation:CrafterStone, Stone Crafter
 progressiveautomation:CrafterIron, Iron Crafter
-progressiveautomation:CrafterDiamond, Diamond Crafter
 progressiveautomation:Farmer, Wooden Animal Farmer
 progressiveautomation:FarmerStone, Stone Animal Farmer
 progressiveautomation:FarmerIron, Iron Animal Farmer
-progressiveautomation:FarmerDiamond, Diamond Animal Farmer
 progressiveautomation:Killer, Wooden Killer
 progressiveautomation:KillerStone, Stone Killer
 progressiveautomation:KillerIron, Iron Killer
-progressiveautomation:KillerDiamond, Diamond Killer
 Ztones:stoneTile, Ztone Tile
 Ztones:cleanDirt, Garden Soil
 Ztones:booster, Booster
@@ -13264,8 +13263,6 @@ progressiveautomation:Wrench, PA Wrench
 progressiveautomation:WoodUpgrade, Wooden Upgrade
 progressiveautomation:StoneUpgrade, Stone Upgrade
 progressiveautomation:IronUpgrade, Iron Upgrade
-progressiveautomation:DiamondUpgrade, Diamond Upgrade
-progressiveautomation:WitherUpgrade, Wither Upgrade
 progressiveautomation:FilterPlayerUpgrade, Player Filter Upgrade
 progressiveautomation:FilterMobUpgrade, Mob Filter Upgrade
 progressiveautomation:FilterAnimalUpgrade, Animal Filter Upgrade
@@ -13275,10 +13272,6 @@ progressiveautomation:ShearingUpgrade, Shearing Upgrade
 progressiveautomation:RFEngine, RF Engine
 progressiveautomation:CreativeRFEngine, Creative RF Engine
 progressiveautomation:CoalPellet, Fuel Pellet
-progressiveautomation:WitherWood, Wither Wood
-progressiveautomation:WitherStone, Wither Stone
-progressiveautomation:WitherIron, Wither Iron
-progressiveautomation:WitherDiamond, Wither Diamond
 questbook:questBook, Quest Book
 Ztones:hunger, MSG Pill
 Ztones:minicharcoal, Mini Charcoal
