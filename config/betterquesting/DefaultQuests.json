@@ -4852,7 +4852,13 @@
               "id": "ImmersiveEngineering:stoneDecoration",
               "Count": 27,
               "OreDict": "",
-              "Damage": 2
+              "Damage": 6
+            },
+            {
+              "id": "minecraft:hopper",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -4868,21 +4874,6 @@
               "Count": 32,
               "OreDict": "ingotWroughtIron",
               "Damage": 11304
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "ImmersiveEngineering:stoneDecoration",
-              "Count": 27,
-              "OreDict": "",
-              "Damage": 6
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -7101,6 +7092,66 @@
       "preRequisites": [
         76
       ]
+    },
+    {
+      "questID": 98,
+      "name": "Oil Drilling rights",
+      "description": "Get the rights to drill for your own Oil. ",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.blockmachines",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1157
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 32004
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1157
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        65
+      ]
     }
   ],
   "questLines": [
@@ -7601,6 +7652,11 @@
         {
           "id": 65,
           "x": 84,
+          "y": 126
+        },
+        {
+          "id": 98,
+          "x": 126,
           "y": 126
         }
       ]

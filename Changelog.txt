@@ -1,0 +1,62 @@
+Industry Gigant 0.4.0
+Remove remaining metal smelting from furnace
+Fix cobalt brass alloying
+Clean up config files
+
+Industry Gigant 0.3.1
+Disabled Quest edit mode
+
+Industry Gigant 0.3.0
+
+Added
+FastLeafDecay 1.4
+MouseTweaks 2.4.4
+
+Removed
+Treecapitator
+Forge Relocation
+bspkrsCore
+
+Updated
+GregTech 5.09.24 -> 5.09.24v6
+IGCore 0.1.2 -> 0.1.4
+MineTweaker3-1.7.10-3.0.10B -> CraftTweaker-1.7.10-3.0.12
+Rotarycraft, Reactorcraft, DragonAPI v15a->v16b
+ImmersiveEngineering 0.7.5 -> 0.7.7
+ModTweaker2 0.9.5 -> 0.9.6
+OpenComputers 1.5.22.46 -> 1.6.0.7-rc.1
+buildcraft 7.1.16 -> 7.1.18
+forestry 4.2.14.62 -> 4.2.16.64
+Industrialcraft-2-2.2.822 -> 2-2.2.823
+logisticspipes-0.9.3.126 -> 0.9.3.127
+
+Changed
+New Quests(Progression GT(LV), Magneticraft, Progressive Automation, Rotarycraft)
+Enabled Miner(ProgAutomation)
+Disabled Wither tools(ProgAutomation)
+Rised Steel production time in EBF from 5 to 20sec
+Disable direct iron/steel rod crafting from ingots
+Disable direct Flour -> Bread smelting
+Make Cobble Upgrade obtainable from quest.
+Remove ReC Fluorite Ore from worldgen.
+Disable Oil Drill recipe.
+Add simple Questbook recipe.
+RoC Diamond Shaft/Gears use GT recipes.
+Make Planter and Killer obtainable from quest.
+
+
+Industry Gigant 0.2.0
+
+Added Progressive Automation.
+Fixed Tinkers Casts.
+New Quests(Progression GT(LV)).
+Changed Charcoal pile igniter to need iron nuggets.
+
+
+Industry Gigant 0.1.0
+
+Added first quests.
+
+Industry Gigant 0.0.0
+
+First release.
