@@ -5409,8 +5409,8 @@
       "globalParticipation": 0.0,
       "globalQuest": false,
       "globalShare": true,
-      "autoClaim": true,
-      "repeatTime": 2400,
+      "autoClaim": false,
+      "repeatTime": 72000,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
