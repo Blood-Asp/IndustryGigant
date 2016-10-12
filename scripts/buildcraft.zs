@@ -315,11 +315,6 @@ recipes.addShaped(miningWell, [
 	[plateSteel, blockRedstone, plateSteel],
 	[plateIron, gearIron, plateIron],
 	[plateIron, stainlesssteeltip, plateIron]]);
-recipes.remove(autoWorkbench);
-recipes.addShaped(autoWorkbench, [
-    [itemCasingIron, smallAnyIronGear, itemCasingIron],
-    [smallAnyIronGear, worktable, smallAnyIronGear],
-    [itemCasingIron, motorLV, itemCasingIron]]);
 recipes.remove(BCRobot);
 recipes.addShaped(BCRobot, [
     [chipDiamond, eeprom, chipDiamond],
