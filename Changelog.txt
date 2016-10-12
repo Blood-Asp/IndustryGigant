@@ -1,6 +1,7 @@
 Industry Gigant 0.4.0
 Add Better Builders Wands
 Update IGCore 0.1.4 -> 0.1.5
+Update DragonAPI,Rotarycraft,Reactorcraft 16b->16d
 
 Remove remaining metal smelting from furnace.
 Fix cobalt brass alloying.
