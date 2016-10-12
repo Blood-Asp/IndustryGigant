@@ -813,19 +813,19 @@
           "choices": [
             {
               "id": "ImmersiveEngineering:metalDevice",
-              "Count": 8,
+              "Count": 16,
               "OreDict": "",
               "Damage": 11
             },
             {
               "id": "Magneticraft:conveyor_low",
-              "Count": 8,
+              "Count": 16,
               "OreDict": "",
               "Damage": 0
             },
             {
               "id": "Magneticraft:inserter",
-              "Count": 2,
+              "Count": 4,
               "OreDict": "",
               "Damage": 0
             }
@@ -7152,6 +7152,222 @@
       "preRequisites": [
         65
       ]
+    },
+    {
+      "questID": 99,
+      "name": "Improved Storage",
+      "description": "Shelving Units act like 24 chests with one huge searchable inventory. They are huge, but make it much easier to find stuff compared to 24 seperate chests.\nPlace down the shelf and add in the chests to use it.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Magneticraft:ShelvingUnit",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Magneticraft:ShelvingUnit",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 32002
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        30
+      ]
+    },
+    {
+      "questID": 100,
+      "name": "Automated Cobblegen",
+      "description": "The first cobble might have supplied cobble without having to mine, but it was still manual work. This nice tool allows to get cobble fully automated by using any autocrafting method.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Ztones:ofanix",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "BuildCraft|Factory:autoWorkbenchBlock",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:lava_bucket",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:water_bucket",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32002
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Ztones:ofanix",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        97
+      ]
+    },
+    {
+      "questID": 101,
+      "name": "Refinery",
+      "description": "Town B is in need of many chemicals for its factorys. Enter the trade by joining a refinery project.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "gregtech:gt.metaitem.01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 30731
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32003
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 5141
+            },
+            {
+              "id": "Magneticraft:distillery_control",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Railcraft:machine.beta",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 13
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "IGCore:gt.metaitem.04",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32063
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        39
+      ]
     }
   ],
   "questLines": [
@@ -7302,6 +7518,16 @@
         {
           "id": 97,
           "x": 252,
+          "y": 126
+        },
+        {
+          "id": 99,
+          "x": 0,
+          "y": 126
+        },
+        {
+          "id": 100,
+          "x": 294,
           "y": 126
         }
       ]
@@ -7607,6 +7833,11 @@
           "id": 66,
           "x": 0,
           "y": 54
+        },
+        {
+          "id": 101,
+          "x": 66,
+          "y": 108
         }
       ]
     },

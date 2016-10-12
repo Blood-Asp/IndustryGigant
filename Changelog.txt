@@ -1,7 +1,21 @@
 Industry Gigant 0.4.0
-Remove remaining metal smelting from furnace
-Fix cobalt brass alloying
-Clean up config files
+Add Better Builders Wands
+Update IGCore 0.1.4 -> 0.1.5
+
+Remove remaining metal smelting from furnace.
+Fix cobalt brass alloying.
+Clean up config files.
+Move QuestAutoupdate into IGCore. Runs only once every restart at first server tick.
+Disabled BQ autoupdate quest.
+Disabled ProjectRed alternative Red Alloy recipes.
+Fixed opencomputers script.
+Fix wooden pipe recipe.
+Reenable default recipe for BC Autoworkbench.
+Remove disabled lenses from BC script.
+Fix heavy engineering block recipe.
+More expensive MagCraft Crafter recipe.
+2 new earlygame Quests.
+30+ new trades.
 
 Industry Gigant 0.3.1
 Disabled Quest edit mode
