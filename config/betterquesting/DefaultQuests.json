@@ -4753,8 +4753,8 @@
     },
     {
       "questID": 67,
-      "name": "Electric Hulls",
-      "description": "First step towards electricy is making some machine hulls of the low voltage tier. These are needed for all LV machines. ",
+      "name": "Electric Casing",
+      "description": "First step towards electricy is making some machine casings of the low voltage tier. These are needed for all LV machines. ",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -4771,10 +4771,10 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "gregtech:gt.blockmachines",
+        "id": "gregtech:gt.blockcasings",
         "Count": 1,
         "OreDict": "",
-        "Damage": 11
+        "Damage": 1
       },
       "visibility": "NORMAL",
       "tasks": [
@@ -4783,10 +4783,10 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "gregtech:gt.blockmachines",
+              "id": "gregtech:gt.blockcasings",
               "Count": 1,
               "OreDict": "",
-              "Damage": 11
+              "Damage": 1
             }
           ],
           "taskID": "bq_standard:crafting"
