@@ -4694,86 +4694,6 @@ gregtech:gt.blockmachines:9306, gt.blockmachines.automation.superbuffer.tier.06.
 gregtech:gt.blockmachines:9307, gt.blockmachines.automation.superbuffer.tier.07.name
 gregtech:gt.blockmachines:9308, gt.blockmachines.automation.superbuffer.tier.08.name
 gregtech:gt.blockmachines:9309, gt.blockmachines.automation.superbuffer.tier.09.name
-gregtech:gt.blockcasings:0, gt.blockcasings.0.name
-gregtech:gt.blockcasings:1, gt.blockcasings.1.name
-gregtech:gt.blockcasings:2, gt.blockcasings.2.name
-gregtech:gt.blockcasings:3, gt.blockcasings.3.name
-gregtech:gt.blockcasings:4, gt.blockcasings.4.name
-gregtech:gt.blockcasings:5, gt.blockcasings.5.name
-gregtech:gt.blockcasings:6, gt.blockcasings.6.name
-gregtech:gt.blockcasings:7, gt.blockcasings.7.name
-gregtech:gt.blockcasings:8, gt.blockcasings.8.name
-gregtech:gt.blockcasings:9, gt.blockcasings.9.name
-gregtech:gt.blockcasings:10, gt.blockcasings.10.name
-gregtech:gt.blockcasings:11, gt.blockcasings.11.name
-gregtech:gt.blockcasings:12, gt.blockcasings.12.name
-gregtech:gt.blockcasings:13, gt.blockcasings.13.name
-gregtech:gt.blockcasings:14, gt.blockcasings.14.name
-gregtech:gt.blockcasings:15, gt.blockcasings.15.name
-gregtech:gt.blockcasings2:0, gt.blockcasings2.0.name
-gregtech:gt.blockcasings2:1, gt.blockcasings2.1.name
-gregtech:gt.blockcasings2:2, gt.blockcasings2.2.name
-gregtech:gt.blockcasings2:3, gt.blockcasings2.3.name
-gregtech:gt.blockcasings2:4, gt.blockcasings2.4.name
-gregtech:gt.blockcasings2:5, gt.blockcasings2.5.name
-gregtech:gt.blockcasings2:6, gt.blockcasings2.6.name
-gregtech:gt.blockcasings2:7, gt.blockcasings2.7.name
-gregtech:gt.blockcasings2:8, gt.blockcasings2.8.name
-gregtech:gt.blockcasings2:9, gt.blockcasings2.9.name
-gregtech:gt.blockcasings2:10, gt.blockcasings2.10.name
-gregtech:gt.blockcasings2:11, gt.blockcasings2.11.name
-gregtech:gt.blockcasings2:12, gt.blockcasings2.12.name
-gregtech:gt.blockcasings2:13, gt.blockcasings2.13.name
-gregtech:gt.blockcasings2:14, gt.blockcasings2.14.name
-gregtech:gt.blockcasings2:15, gt.blockcasings2.15.name
-gregtech:gt.blockcasings3:0, gt.blockcasings3.0.name
-gregtech:gt.blockcasings3:1, gt.blockcasings3.1.name
-gregtech:gt.blockcasings3:2, gt.blockcasings3.2.name
-gregtech:gt.blockcasings3:3, gt.blockcasings3.3.name
-gregtech:gt.blockcasings3:4, gt.blockcasings3.4.name
-gregtech:gt.blockcasings3:5, gt.blockcasings3.5.name
-gregtech:gt.blockcasings3:6, gt.blockcasings3.6.name
-gregtech:gt.blockcasings3:7, gt.blockcasings3.7.name
-gregtech:gt.blockcasings3:8, gt.blockcasings3.8.name
-gregtech:gt.blockcasings3:9, gt.blockcasings3.9.name
-gregtech:gt.blockcasings3:10, gt.blockcasings3.10.name
-gregtech:gt.blockcasings3:11, gt.blockcasings3.11.name
-gregtech:gt.blockcasings3:12, gt.blockcasings3.12.name
-gregtech:gt.blockcasings3:13, gt.blockcasings3.13.name
-gregtech:gt.blockcasings3:14, gt.blockcasings3.14.name
-gregtech:gt.blockcasings3:15, gt.blockcasings3.15.name
-gregtech:gt.blockcasings4:0, gt.blockcasings4.0.name
-gregtech:gt.blockcasings4:1, gt.blockcasings4.1.name
-gregtech:gt.blockcasings4:2, gt.blockcasings4.2.name
-gregtech:gt.blockcasings4:3, gt.blockcasings4.3.name
-gregtech:gt.blockcasings4:4, gt.blockcasings4.4.name
-gregtech:gt.blockcasings4:5, gt.blockcasings4.5.name
-gregtech:gt.blockcasings4:6, gt.blockcasings4.6.name
-gregtech:gt.blockcasings4:7, gt.blockcasings4.7.name
-gregtech:gt.blockcasings4:8, gt.blockcasings4.8.name
-gregtech:gt.blockcasings4:9, gt.blockcasings4.9.name
-gregtech:gt.blockcasings4:10, gt.blockcasings4.10.name
-gregtech:gt.blockcasings4:11, gt.blockcasings4.11.name
-gregtech:gt.blockcasings4:12, gt.blockcasings4.12.name
-gregtech:gt.blockcasings4:13, gt.blockcasings4.13.name
-gregtech:gt.blockcasings4:14, gt.blockcasings4.14.name
-gregtech:gt.blockcasings4:15, gt.blockcasings4.15.name
-gregtech:gt.blockcasings5:0, gt.blockcasings5.0.name
-gregtech:gt.blockcasings5:1, gt.blockcasings5.1.name
-gregtech:gt.blockcasings5:2, gt.blockcasings5.2.name
-gregtech:gt.blockcasings5:3, gt.blockcasings5.3.name
-gregtech:gt.blockcasings5:4, gt.blockcasings5.4.name
-gregtech:gt.blockcasings5:5, gt.blockcasings5.5.name
-gregtech:gt.blockcasings5:6, gt.blockcasings5.6.name
-gregtech:gt.blockcasings5:7, gt.blockcasings5.7.name
-gregtech:gt.blockcasings5:8, gt.blockcasings5.8.name
-gregtech:gt.blockcasings5:9, gt.blockcasings5.9.name
-gregtech:gt.blockcasings5:10, gt.blockcasings5.10.name
-gregtech:gt.blockcasings5:11, gt.blockcasings5.11.name
-gregtech:gt.blockcasings5:12, gt.blockcasings5.12.name
-gregtech:gt.blockcasings5:13, gt.blockcasings5.13.name
-gregtech:gt.blockcasings5:14, gt.blockcasings5.14.name
-gregtech:gt.blockcasings5:15, gt.blockcasings5.15.name
 gregtech:gt.blockgranites:0, gt.blockgranites.0.name
 gregtech:gt.blockgranites:1, gt.blockgranites.1.name
 gregtech:gt.blockgranites:2, gt.blockgranites.2.name
@@ -4822,22 +4742,6 @@ gregtech:gt.blockstones:12, gt.blockstones.12.name
 gregtech:gt.blockstones:13, gt.blockstones.13.name
 gregtech:gt.blockstones:14, gt.blockstones.14.name
 gregtech:gt.blockstones:15, gt.blockstones.15.name
-gregtech:gt.blockreinforced:0, gt.blockreinforced.0.name
-gregtech:gt.blockreinforced:1, gt.blockreinforced.1.name
-gregtech:gt.blockreinforced:2, gt.blockreinforced.2.name
-gregtech:gt.blockreinforced:3, gt.blockreinforced.3.name
-gregtech:gt.blockreinforced:4, gt.blockreinforced.4.name
-gregtech:gt.blockreinforced:5, gt.blockreinforced.5.name
-gregtech:gt.blockreinforced:6, gt.blockreinforced.6.name
-gregtech:gt.blockreinforced:7, gt.blockreinforced.7.name
-gregtech:gt.blockreinforced:8, gt.blockreinforced.8.name
-gregtech:gt.blockreinforced:9, gt.blockreinforced.9.name
-gregtech:gt.blockreinforced:10, gt.blockreinforced.10.name
-gregtech:gt.blockreinforced:11, gt.blockreinforced.11.name
-gregtech:gt.blockreinforced:12, gt.blockreinforced.12.name
-gregtech:gt.blockreinforced:13, gt.blockreinforced.13.name
-gregtech:gt.blockreinforced:14, gt.blockreinforced.14.name
-gregtech:gt.blockreinforced:15, gt.blockreinforced.15.name
 Magneticraft:tile.limestoneSlab:0, Limestone Slab
 Magneticraft:tile.limestoneSlabFull:0, Limestone Slab
 Magneticraft:tile.burnt_limestoneSlab:0, Burnt Limestone Slab
@@ -7074,86 +6978,6 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Brownstone Brick
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Brownstone Road
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Fancy Brownstone
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Chiseled Brownstone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings.0.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings.1.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings.2.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings.3.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings.4.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings.5.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings.6.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings.7.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings.8.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings.9.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings.10.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings.11.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings.12.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings.13.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings.14.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings.15.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings2.0.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings2.1.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings2.2.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings2.3.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings2.4.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings2.5.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings2.6.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings2.7.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings2.8.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings2.9.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings2.10.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings2.11.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings2.12.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings2.13.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings2.14.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings2.15.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings3.0.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings3.1.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings3.2.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings3.3.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings3.4.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings3.5.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings3.6.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings3.7.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings3.8.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings3.9.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings3.10.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings3.11.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings3.12.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings3.13.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings3.14.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings3.15.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings4.0.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings4.1.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings4.2.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings4.3.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings4.4.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings4.5.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings4.6.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings4.7.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings4.8.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings4.9.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings4.10.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings4.11.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings4.12.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings4.13.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings4.14.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings4.15.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings5.0.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings5.1.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings5.2.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings5.3.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings5.4.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings5.5.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings5.6.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings5.7.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings5.8.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings5.9.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings5.10.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings5.11.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings5.12.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings5.13.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings5.14.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockcasings5.15.name
 appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockgranites.0.name
 appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockgranites.1.name
 appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockgranites.2.name
@@ -7202,22 +7026,6 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockstones.12.name
 appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockstones.13.name
 appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockstones.14.name
 appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockstones.15.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockreinforced.0.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockreinforced.1.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockreinforced.2.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockreinforced.3.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockreinforced.4.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockreinforced.5.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockreinforced.6.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockreinforced.7.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockreinforced.8.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockreinforced.9.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockreinforced.10.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockreinforced.11.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockreinforced.12.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockreinforced.13.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockreinforced.14.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - gt.blockreinforced.15.name
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Slab
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Burnt Limestone Slab
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Brick Slab
@@ -9952,6 +9760,7 @@ gregtech:gt.metaitem.01:2508, gt.metaitem.01.2508.name
 gregtech:gt.metaitem.01:2509, gt.metaitem.01.2509.name
 gregtech:gt.metaitem.01:2510, gt.metaitem.01.2510.name
 gregtech:gt.metaitem.01:2511, gt.metaitem.01.2511.name
+gregtech:gt.metaitem.01:2512, gt.metaitem.01.2512.name
 gregtech:gt.metaitem.01:2513, gt.metaitem.01.2513.name
 gregtech:gt.metaitem.01:2515, gt.metaitem.01.2515.name
 gregtech:gt.metaitem.01:2516, gt.metaitem.01.2516.name
@@ -10111,6 +9920,7 @@ gregtech:gt.metaitem.01:8508, gt.metaitem.01.8508.name
 gregtech:gt.metaitem.01:8509, gt.metaitem.01.8509.name
 gregtech:gt.metaitem.01:8510, gt.metaitem.01.8510.name
 gregtech:gt.metaitem.01:8511, gt.metaitem.01.8511.name
+gregtech:gt.metaitem.01:8512, gt.metaitem.01.8512.name
 gregtech:gt.metaitem.01:8513, gt.metaitem.01.8513.name
 gregtech:gt.metaitem.01:8515, gt.metaitem.01.8515.name
 gregtech:gt.metaitem.01:8516, gt.metaitem.01.8516.name
@@ -10127,6 +9937,108 @@ gregtech:gt.metaitem.01:8531, gt.metaitem.01.8531.name
 gregtech:gt.metaitem.01:8534, gt.metaitem.01.8534.name
 gregtech:gt.metaitem.01:8538, gt.metaitem.01.8538.name
 gregtech:gt.metaitem.01:8890, gt.metaitem.01.8890.name
+gregtech:gt.metaitem.01:9006, gt.metaitem.01.9006.name
+gregtech:gt.metaitem.01:9008, gt.metaitem.01.9008.name
+gregtech:gt.metaitem.01:9010, gt.metaitem.01.9010.name
+gregtech:gt.metaitem.01:9018, gt.metaitem.01.9018.name
+gregtech:gt.metaitem.01:9019, gt.metaitem.01.9019.name
+gregtech:gt.metaitem.01:9020, gt.metaitem.01.9020.name
+gregtech:gt.metaitem.01:9025, gt.metaitem.01.9025.name
+gregtech:gt.metaitem.01:9028, gt.metaitem.01.9028.name
+gregtech:gt.metaitem.01:9029, gt.metaitem.01.9029.name
+gregtech:gt.metaitem.01:9030, gt.metaitem.01.9030.name
+gregtech:gt.metaitem.01:9031, gt.metaitem.01.9031.name
+gregtech:gt.metaitem.01:9032, gt.metaitem.01.9032.name
+gregtech:gt.metaitem.01:9033, gt.metaitem.01.9033.name
+gregtech:gt.metaitem.01:9034, gt.metaitem.01.9034.name
+gregtech:gt.metaitem.01:9035, gt.metaitem.01.9035.name
+gregtech:gt.metaitem.01:9036, gt.metaitem.01.9036.name
+gregtech:gt.metaitem.01:9037, gt.metaitem.01.9037.name
+gregtech:gt.metaitem.01:9039, gt.metaitem.01.9039.name
+gregtech:gt.metaitem.01:9045, gt.metaitem.01.9045.name
+gregtech:gt.metaitem.01:9047, gt.metaitem.01.9047.name
+gregtech:gt.metaitem.01:9048, gt.metaitem.01.9048.name
+gregtech:gt.metaitem.01:9052, gt.metaitem.01.9052.name
+gregtech:gt.metaitem.01:9054, gt.metaitem.01.9054.name
+gregtech:gt.metaitem.01:9057, gt.metaitem.01.9057.name
+gregtech:gt.metaitem.01:9058, gt.metaitem.01.9058.name
+gregtech:gt.metaitem.01:9062, gt.metaitem.01.9062.name
+gregtech:gt.metaitem.01:9065, gt.metaitem.01.9065.name
+gregtech:gt.metaitem.01:9067, gt.metaitem.01.9067.name
+gregtech:gt.metaitem.01:9070, gt.metaitem.01.9070.name
+gregtech:gt.metaitem.01:9078, gt.metaitem.01.9078.name
+gregtech:gt.metaitem.01:9080, gt.metaitem.01.9080.name
+gregtech:gt.metaitem.01:9081, gt.metaitem.01.9081.name
+gregtech:gt.metaitem.01:9083, gt.metaitem.01.9083.name
+gregtech:gt.metaitem.01:9084, gt.metaitem.01.9084.name
+gregtech:gt.metaitem.01:9085, gt.metaitem.01.9085.name
+gregtech:gt.metaitem.01:9089, gt.metaitem.01.9089.name
+gregtech:gt.metaitem.01:9090, gt.metaitem.01.9090.name
+gregtech:gt.metaitem.01:9096, gt.metaitem.01.9096.name
+gregtech:gt.metaitem.01:9097, gt.metaitem.01.9097.name
+gregtech:gt.metaitem.01:9098, gt.metaitem.01.9098.name
+gregtech:gt.metaitem.01:9100, gt.metaitem.01.9100.name
+gregtech:gt.metaitem.01:9101, gt.metaitem.01.9101.name
+gregtech:gt.metaitem.01:9103, gt.metaitem.01.9103.name
+gregtech:gt.metaitem.01:9129, gt.metaitem.01.9129.name
+gregtech:gt.metaitem.01:9300, gt.metaitem.01.9300.name
+gregtech:gt.metaitem.01:9301, gt.metaitem.01.9301.name
+gregtech:gt.metaitem.01:9302, gt.metaitem.01.9302.name
+gregtech:gt.metaitem.01:9303, gt.metaitem.01.9303.name
+gregtech:gt.metaitem.01:9304, gt.metaitem.01.9304.name
+gregtech:gt.metaitem.01:9305, gt.metaitem.01.9305.name
+gregtech:gt.metaitem.01:9306, gt.metaitem.01.9306.name
+gregtech:gt.metaitem.01:9307, gt.metaitem.01.9307.name
+gregtech:gt.metaitem.01:9308, gt.metaitem.01.9308.name
+gregtech:gt.metaitem.01:9310, gt.metaitem.01.9310.name
+gregtech:gt.metaitem.01:9311, gt.metaitem.01.9311.name
+gregtech:gt.metaitem.01:9312, gt.metaitem.01.9312.name
+gregtech:gt.metaitem.01:9313, gt.metaitem.01.9313.name
+gregtech:gt.metaitem.01:9314, gt.metaitem.01.9314.name
+gregtech:gt.metaitem.01:9315, gt.metaitem.01.9315.name
+gregtech:gt.metaitem.01:9316, gt.metaitem.01.9316.name
+gregtech:gt.metaitem.01:9317, gt.metaitem.01.9317.name
+gregtech:gt.metaitem.01:9319, gt.metaitem.01.9319.name
+gregtech:gt.metaitem.01:9322, gt.metaitem.01.9322.name
+gregtech:gt.metaitem.01:9324, gt.metaitem.01.9324.name
+gregtech:gt.metaitem.01:9325, gt.metaitem.01.9325.name
+gregtech:gt.metaitem.01:9326, gt.metaitem.01.9326.name
+gregtech:gt.metaitem.01:9327, gt.metaitem.01.9327.name
+gregtech:gt.metaitem.01:9328, gt.metaitem.01.9328.name
+gregtech:gt.metaitem.01:9329, gt.metaitem.01.9329.name
+gregtech:gt.metaitem.01:9331, gt.metaitem.01.9331.name
+gregtech:gt.metaitem.01:9334, gt.metaitem.01.9334.name
+gregtech:gt.metaitem.01:9335, gt.metaitem.01.9335.name
+gregtech:gt.metaitem.01:9343, gt.metaitem.01.9343.name
+gregtech:gt.metaitem.01:9344, gt.metaitem.01.9344.name
+gregtech:gt.metaitem.01:9345, gt.metaitem.01.9345.name
+gregtech:gt.metaitem.01:9348, gt.metaitem.01.9348.name
+gregtech:gt.metaitem.01:9349, gt.metaitem.01.9349.name
+gregtech:gt.metaitem.01:9350, gt.metaitem.01.9350.name
+gregtech:gt.metaitem.01:9351, gt.metaitem.01.9351.name
+gregtech:gt.metaitem.01:9352, gt.metaitem.01.9352.name
+gregtech:gt.metaitem.01:9353, gt.metaitem.01.9353.name
+gregtech:gt.metaitem.01:9354, gt.metaitem.01.9354.name
+gregtech:gt.metaitem.01:9355, gt.metaitem.01.9355.name
+gregtech:gt.metaitem.01:9356, gt.metaitem.01.9356.name
+gregtech:gt.metaitem.01:9357, gt.metaitem.01.9357.name
+gregtech:gt.metaitem.01:9358, gt.metaitem.01.9358.name
+gregtech:gt.metaitem.01:9359, gt.metaitem.01.9359.name
+gregtech:gt.metaitem.01:9360, gt.metaitem.01.9360.name
+gregtech:gt.metaitem.01:9363, gt.metaitem.01.9363.name
+gregtech:gt.metaitem.01:9370, gt.metaitem.01.9370.name
+gregtech:gt.metaitem.01:9371, gt.metaitem.01.9371.name
+gregtech:gt.metaitem.01:9372, gt.metaitem.01.9372.name
+gregtech:gt.metaitem.01:9373, gt.metaitem.01.9373.name
+gregtech:gt.metaitem.01:9374, gt.metaitem.01.9374.name
+gregtech:gt.metaitem.01:9470, gt.metaitem.01.9470.name
+gregtech:gt.metaitem.01:9471, gt.metaitem.01.9471.name
+gregtech:gt.metaitem.01:9472, gt.metaitem.01.9472.name
+gregtech:gt.metaitem.01:9473, gt.metaitem.01.9473.name
+gregtech:gt.metaitem.01:9809, gt.metaitem.01.9809.name
+gregtech:gt.metaitem.01:9874, gt.metaitem.01.9874.name
+gregtech:gt.metaitem.01:9880, gt.metaitem.01.9880.name
+gregtech:gt.metaitem.01:9889, gt.metaitem.01.9889.name
 gregtech:gt.metaitem.01:11006, gt.metaitem.01.11006.name
 gregtech:gt.metaitem.01:11008, gt.metaitem.01.11008.name
 gregtech:gt.metaitem.01:11010, gt.metaitem.01.11010.name
@@ -10555,6 +10467,7 @@ gregtech:gt.metaitem.01:24508, gt.metaitem.01.24508.name
 gregtech:gt.metaitem.01:24509, gt.metaitem.01.24509.name
 gregtech:gt.metaitem.01:24510, gt.metaitem.01.24510.name
 gregtech:gt.metaitem.01:24511, gt.metaitem.01.24511.name
+gregtech:gt.metaitem.01:24512, gt.metaitem.01.24512.name
 gregtech:gt.metaitem.01:24513, gt.metaitem.01.24513.name
 gregtech:gt.metaitem.01:24515, gt.metaitem.01.24515.name
 gregtech:gt.metaitem.01:24518, gt.metaitem.01.24518.name
@@ -11399,6 +11312,7 @@ gregtech:gt.metaitem.02:27508, gt.metaitem.02.27508.name
 gregtech:gt.metaitem.02:27509, gt.metaitem.02.27509.name
 gregtech:gt.metaitem.02:27510, gt.metaitem.02.27510.name
 gregtech:gt.metaitem.02:27511, gt.metaitem.02.27511.name
+gregtech:gt.metaitem.02:27512, gt.metaitem.02.27512.name
 gregtech:gt.metaitem.02:27513, gt.metaitem.02.27513.name
 gregtech:gt.metaitem.02:27527, gt.metaitem.02.27527.name
 gregtech:gt.metaitem.02:27528, gt.metaitem.02.27528.name
@@ -11414,6 +11328,7 @@ gregtech:gt.metaitem.02:28508, gt.metaitem.02.28508.name
 gregtech:gt.metaitem.02:28509, gt.metaitem.02.28509.name
 gregtech:gt.metaitem.02:28510, gt.metaitem.02.28510.name
 gregtech:gt.metaitem.02:28511, gt.metaitem.02.28511.name
+gregtech:gt.metaitem.02:28512, gt.metaitem.02.28512.name
 gregtech:gt.metaitem.02:28513, gt.metaitem.02.28513.name
 gregtech:gt.metaitem.02:28527, gt.metaitem.02.28527.name
 gregtech:gt.metaitem.02:28528, gt.metaitem.02.28528.name
@@ -11429,6 +11344,7 @@ gregtech:gt.metaitem.02:29508, gt.metaitem.02.29508.name
 gregtech:gt.metaitem.02:29509, gt.metaitem.02.29509.name
 gregtech:gt.metaitem.02:29510, gt.metaitem.02.29510.name
 gregtech:gt.metaitem.02:29511, gt.metaitem.02.29511.name
+gregtech:gt.metaitem.02:29512, gt.metaitem.02.29512.name
 gregtech:gt.metaitem.02:29513, gt.metaitem.02.29513.name
 gregtech:gt.metaitem.02:29527, gt.metaitem.02.29527.name
 gregtech:gt.metaitem.02:29528, gt.metaitem.02.29528.name
@@ -11444,6 +11360,7 @@ gregtech:gt.metaitem.02:30508, gt.metaitem.02.30508.name
 gregtech:gt.metaitem.02:30509, gt.metaitem.02.30509.name
 gregtech:gt.metaitem.02:30510, gt.metaitem.02.30510.name
 gregtech:gt.metaitem.02:30511, gt.metaitem.02.30511.name
+gregtech:gt.metaitem.02:30512, gt.metaitem.02.30512.name
 gregtech:gt.metaitem.02:30513, gt.metaitem.02.30513.name
 gregtech:gt.metaitem.02:30527, gt.metaitem.02.30527.name
 gregtech:gt.metaitem.02:30528, gt.metaitem.02.30528.name

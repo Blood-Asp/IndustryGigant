@@ -74,7 +74,7 @@
     {
       "questID": 1,
       "name": "First Material Gathering",
-      "description": "Everything needs to start somewhere. Collect some raw materials.",
+      "description": "Everything needs to start somewhere. Collect some raw materials.\nIf you are playing in Skyblock mode, you need to use the Magneticraft Crushing Table that has its recipes not in NEI.\nYou need to know: Cobble-\u003eGravel-\u003eSand and Wood Pulp-\u003eFertilizer.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -5086,7 +5086,7 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
+          "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
