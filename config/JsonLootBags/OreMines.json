@@ -1,0 +1,344 @@
+{
+    "itemname": "Exploration Result",
+    "color": [
+    205,
+    127,
+    50
+    ],
+    "invSlotsMin": 36,
+    "invSlotsMax": 36,
+    "amountOfItemsMin": 1,
+    "amountOfItemsMax": 1,
+    "rarity": "Uncommon",
+    "items":
+    [
+        {
+            "min": 1,
+            "max": 16,
+            "weight": 40,
+            "itemstack":
+            {
+                "item": "minecraft:gold_nugget",
+                "stacksize": 1
+            }    
+        },
+		{
+            "min": 1,
+            "max": 16,
+            "weight": 10,
+            "itemstack":
+            {
+                "item": "minecraft:diamond",
+                "stacksize": 1
+            }    
+        },
+        {
+            "min": 1,
+            "max": 1,
+            "weight": 5,
+            "itemstack":
+            {
+                "item": "IGCore:gt.metaitem.04",
+                "stacksize": 10,
+				"damage": 32021
+            }
+        },
+        {
+            "min": 1,
+            "max": 1,
+            "weight": 10,
+            "itemstack":
+            {
+                "item": "IGCore:gt.metaitem.04",
+                "stacksize": 1,
+				"damage": 32022
+            }
+        },
+        {
+            "min": 1,
+            "max": 1,
+            "weight": 5,
+            "itemstack":
+            {
+                "item": "IGCore:gt.metaitem.04",
+                "stacksize": 1,
+				"damage": 32023
+            }
+        },
+        {
+            "min": 1,
+            "max": 1,
+            "weight": 5,
+            "itemstack":
+            {
+                "item": "IGCore:gt.metaitem.04",
+                "stacksize": 1,
+				"damage": 32024
+            }
+        },
+        {
+            "min": 1,
+            "max": 1,
+            "weight": 5,
+            "itemstack":
+            {
+                "item": "IGCore:gt.metaitem.04",
+                "stacksize": 1,
+				"damage": 32025
+            }
+        },
+        {
+            "min": 1,
+            "max": 1,
+            "weight": 5,
+            "itemstack":
+            {
+                "item": "IGCore:gt.metaitem.04",
+                "stacksize": 1,
+				"damage": 32026
+            }
+        },
+        {
+            "min": 1,
+            "max": 1,
+            "weight": 5,
+            "itemstack":
+            {
+                "item": "IGCore:gt.metaitem.04",
+                "stacksize": 1,
+				"damage": 32027
+            }
+        },
+        {
+            "min": 1,
+            "max": 1,
+            "weight": 5,
+            "itemstack":
+            {
+                "item": "IGCore:gt.metaitem.04",
+                "stacksize": 1,
+				"damage": 32028
+            }
+        },
+        {
+            "min": 1,
+            "max": 1,
+            "weight": 5,
+            "itemstack":
+            {
+                "item": "IGCore:gt.metaitem.04",
+                "stacksize": 1,
+				"damage": 32029
+            }
+        },
+        {
+            "min": 1,
+            "max": 1,
+            "weight": 5,
+            "itemstack":
+            {
+                "item": "IGCore:gt.metaitem.04",
+                "stacksize": 1,
+				"damage": 32030
+            }
+        },
+        {
+            "min": 1,
+            "max": 1,
+            "weight": 5,
+            "itemstack":
+            {
+                "item": "IGCore:gt.metaitem.04",
+                "stacksize": 1,
+				"damage": 32031
+            }
+        },
+        {
+            "min": 1,
+            "max": 1,
+            "weight": 5,
+            "itemstack":
+            {
+                "item": "IGCore:gt.metaitem.04",
+                "stacksize": 1,
+				"damage": 32032
+            }
+        },
+        {
+            "min": 1,
+            "max": 1,
+            "weight": 5,
+            "itemstack":
+            {
+                "item": "IGCore:gt.metaitem.04",
+                "stacksize": 1,
+				"damage": 32033
+            }
+        },
+        {
+            "min": 1,
+            "max": 1,
+            "weight": 5,
+            "itemstack":
+            {
+                "item": "IGCore:gt.metaitem.04",
+                "stacksize": 1,
+				"damage": 32034
+            }
+        },
+        {
+            "min": 1,
+            "max": 1,
+            "weight": 5,
+            "itemstack":
+            {
+                "item": "IGCore:gt.metaitem.04",
+                "stacksize": 1,
+				"damage": 32035
+            }
+        },
+        {
+            "min": 1,
+            "max": 1,
+            "weight": 5,
+            "itemstack":
+            {
+                "item": "IGCore:gt.metaitem.04",
+                "stacksize": 1,
+				"damage": 32036
+            }
+        },
+        {
+            "min": 1,
+            "max": 1,
+            "weight": 5,
+            "itemstack":
+            {
+                "item": "IGCore:gt.metaitem.04",
+                "stacksize": 1,
+				"damage": 32039
+            }
+        },
+        {
+            "min": 1,
+            "max": 1,
+            "weight": 5,
+            "itemstack":
+            {
+                "item": "IGCore:gt.metaitem.04",
+                "stacksize": 1,
+				"damage": 32040
+            }
+        },
+        {
+            "min": 1,
+            "max": 1,
+            "weight": 5,
+            "itemstack":
+            {
+                "item": "IGCore:gt.metaitem.04",
+                "stacksize": 1,
+				"damage": 32041
+            }
+        },
+        {
+            "min": 1,
+            "max": 1,
+            "weight": 5,
+            "itemstack":
+            {
+                "item": "IGCore:gt.metaitem.04",
+                "stacksize": 1,
+				"damage": 32042
+            }
+        },
+        {
+            "min": 1,
+            "max": 1,
+            "weight": 5,
+            "itemstack":
+            {
+                "item": "IGCore:gt.metaitem.04",
+                "stacksize": 1,
+				"damage": 32043
+            }
+        },
+        {
+            "min": 1,
+            "max": 1,
+            "weight": 5,
+            "itemstack":
+            {
+                "item": "IGCore:gt.metaitem.04",
+                "stacksize": 1,
+				"damage": 32044
+            }
+        },
+        {
+            "min": 1,
+            "max": 1,
+            "weight": 5,
+            "itemstack":
+            {
+                "item": "IGCore:gt.metaitem.04",
+                "stacksize": 1,
+				"damage": 32045
+            }
+        },
+        {
+            "min": 1,
+            "max": 1,
+            "weight": 5,
+            "itemstack":
+            {
+                "item": "IGCore:gt.metaitem.04",
+                "stacksize": 1,
+				"damage": 32046
+            }
+        },
+        {
+            "min": 1,
+            "max": 1,
+            "weight": 5,
+            "itemstack":
+            {
+                "item": "IGCore:gt.metaitem.04",
+                "stacksize": 1,
+				"damage": 32047
+            }
+        },
+        {
+            "min": 1,
+            "max": 1,
+            "weight": 5,
+            "itemstack":
+            {
+                "item": "IGCore:gt.metaitem.04",
+                "stacksize": 1,
+				"damage": 32048
+            }
+        },
+        {
+            "min": 1,
+            "max": 1,
+            "weight": 5,
+            "itemstack":
+            {
+                "item": "IGCore:gt.metaitem.04",
+                "stacksize": 1,
+				"damage": 32049
+            }
+        },
+        {
+            "min": 1,
+            "max": 1,
+            "weight": 5,
+            "itemstack":
+            {
+                "item": "IGCore:gt.metaitem.04",
+                "stacksize": 1,
+				"damage": 32050
+            }
+        }
+    ]
+}
