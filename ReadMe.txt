@@ -13,10 +13,11 @@ Endless water generation only works in Ocean or River biomes. Monster do not dro
 Better Questing guides you trough the progression (incomplete). Open with 'F' or set another hotkey.
 Build the trader and get trading licences from quests to gain credits for your metals.
 
+For Skyblock mode(config/GregTech/IGCore.cfg -> general/GenerateVoidOverworld) set true in config. 
+Needed Recipes not in NEI: Magneticraft Crushing Table cobble->gravel->sand;wood pulp->fertilizer.
+
 TODO List: 
 Finish Quests.
 Add more trades.
-Finish Skyblock mode(config/GregTech/IGCore.cfg -> general/GenerateVoidOverworld) Do not use yet. 
-Fix some remaining exploits.
 Change recipes for side mods: Logistics Pipes, Reactorcraft.
 Better Textures for core items, quests, trader gui and main menu(Help with textures is always wanted).

@@ -45,6 +45,16 @@ local.properties
 /server-resourece-pac
 usercache.json
 usernamecache.json
+CustomRecipes.cfg
+Facades.cfg
+items.csv
+fastcraft.ini
+IC2.ini
+InvTweaks.cfg
+MouseTweaks.cfg
+splash.properties
+minecraftinstance.json
+CarpentersBlocksCachedResources.zip
 *.classdata
 *.dll
 *.lang

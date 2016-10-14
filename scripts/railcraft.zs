@@ -116,6 +116,9 @@ mods.railcraft.RockCrusher.removeRecipe(<*>);
 recipes.remove(<Railcraft:machine.alpha:15>);
 <Railcraft:machine.alpha:15>.addTooltip(format.red(format.bold("This item is DISABLED!")));
 
+recipes.remove(<Railcraft:machine.alpha:8>);
+<Railcraft:machine.alpha:8>.addTooltip(format.red(format.bold("This item is DISABLED!")));
+
 # Recipe tweaks
 recipes.remove(RCLeadPlate);
 recipes.remove(railStandard);
