@@ -2378,8 +2378,8 @@
     },
     {
       "questID": 31,
-      "name": "Forestry Bees",
-      "description": "No Description",
+      "name": "Bees",
+      "description": "A Beekeeper close to Town A needs help to feed his bees with extra sugar as nature has a hard time currently.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -2545,8 +2545,328 @@
         }
       },
       "visibility": "HIDDEN",
-      "tasks": [],
-      "rewards": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:sugar",
+              "Count": 1000,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Forestry:beePrincessGE",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "MaxH:4": 20,
+                "Mate:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesMeadows",
+                      "UID0:8": "forestry.speciesMeadows",
+                      "Slot:4": 0
+                    },
+                    {
+                      "UID1:8": "forestry.speedSlowest",
+                      "UID0:8": "forestry.speedSlowest",
+                      "Slot:4": 1
+                    },
+                    {
+                      "UID1:8": "forestry.lifespanShorter",
+                      "UID0:8": "forestry.lifespanShorter",
+                      "Slot:4": 2
+                    },
+                    {
+                      "UID1:8": "forestry.fertilityNormal",
+                      "UID0:8": "forestry.fertilityNormal",
+                      "Slot:4": 3
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 4
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 5
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 7
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 8
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 9
+                    },
+                    {
+                      "UID1:8": "forestry.flowersVanilla",
+                      "UID0:8": "forestry.flowersVanilla",
+                      "Slot:4": 10
+                    },
+                    {
+                      "UID1:8": "forestry.floweringSlower",
+                      "UID0:8": "forestry.floweringSlower",
+                      "Slot:4": 11
+                    },
+                    {
+                      "UID1:8": "forestry.territoryAverage",
+                      "UID0:8": "forestry.territoryAverage",
+                      "Slot:4": 12
+                    },
+                    {
+                      "UID1:8": "forestry.effectNone",
+                      "UID0:8": "forestry.effectNone",
+                      "Slot:4": 13
+                    }
+                  ]
+                },
+                "Health:4": 20,
+                "IsAnalyzed:4": 0,
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesMeadows",
+                      "UID0:8": "forestry.speciesMeadows",
+                      "Slot:4": 0
+                    },
+                    {
+                      "UID1:8": "forestry.speedSlowest",
+                      "UID0:8": "forestry.speedSlowest",
+                      "Slot:4": 1
+                    },
+                    {
+                      "UID1:8": "forestry.lifespanShorter",
+                      "UID0:8": "forestry.lifespanShorter",
+                      "Slot:4": 2
+                    },
+                    {
+                      "UID1:8": "forestry.fertilityNormal",
+                      "UID0:8": "forestry.fertilityNormal",
+                      "Slot:4": 3
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 4
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 5
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 7
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 8
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 9
+                    },
+                    {
+                      "UID1:8": "forestry.flowersVanilla",
+                      "UID0:8": "forestry.flowersVanilla",
+                      "Slot:4": 10
+                    },
+                    {
+                      "UID1:8": "forestry.floweringSlower",
+                      "UID0:8": "forestry.floweringSlower",
+                      "Slot:4": 11
+                    },
+                    {
+                      "UID1:8": "forestry.territoryAverage",
+                      "UID0:8": "forestry.territoryAverage",
+                      "Slot:4": 12
+                    },
+                    {
+                      "UID1:8": "forestry.effectNone",
+                      "UID0:8": "forestry.effectNone",
+                      "Slot:4": 13
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "Forestry:beeDroneGE",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "MaxH:4": 20,
+                "Mate:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesMeadows",
+                      "UID0:8": "forestry.speciesMeadows",
+                      "Slot:4": 0
+                    },
+                    {
+                      "UID1:8": "forestry.speedSlowest",
+                      "UID0:8": "forestry.speedSlowest",
+                      "Slot:4": 1
+                    },
+                    {
+                      "UID1:8": "forestry.lifespanShorter",
+                      "UID0:8": "forestry.lifespanShorter",
+                      "Slot:4": 2
+                    },
+                    {
+                      "UID1:8": "forestry.fertilityNormal",
+                      "UID0:8": "forestry.fertilityNormal",
+                      "Slot:4": 3
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 4
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 5
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 7
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 8
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 9
+                    },
+                    {
+                      "UID1:8": "forestry.flowersVanilla",
+                      "UID0:8": "forestry.flowersVanilla",
+                      "Slot:4": 10
+                    },
+                    {
+                      "UID1:8": "forestry.floweringSlower",
+                      "UID0:8": "forestry.floweringSlower",
+                      "Slot:4": 11
+                    },
+                    {
+                      "UID1:8": "forestry.territoryAverage",
+                      "UID0:8": "forestry.territoryAverage",
+                      "Slot:4": 12
+                    },
+                    {
+                      "UID1:8": "forestry.effectNone",
+                      "UID0:8": "forestry.effectNone",
+                      "Slot:4": 13
+                    }
+                  ]
+                },
+                "Health:4": 20,
+                "IsAnalyzed:4": 0,
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.speciesMeadows",
+                      "UID0:8": "forestry.speciesMeadows",
+                      "Slot:4": 0
+                    },
+                    {
+                      "UID1:8": "forestry.speedSlowest",
+                      "UID0:8": "forestry.speedSlowest",
+                      "Slot:4": 1
+                    },
+                    {
+                      "UID1:8": "forestry.lifespanShorter",
+                      "UID0:8": "forestry.lifespanShorter",
+                      "Slot:4": 2
+                    },
+                    {
+                      "UID1:8": "forestry.fertilityNormal",
+                      "UID0:8": "forestry.fertilityNormal",
+                      "Slot:4": 3
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 4
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 5
+                    },
+                    {
+                      "UID1:8": "forestry.toleranceNone",
+                      "UID0:8": "forestry.toleranceNone",
+                      "Slot:4": 7
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 8
+                    },
+                    {
+                      "UID1:8": "forestry.boolFalse",
+                      "UID0:8": "forestry.boolFalse",
+                      "Slot:4": 9
+                    },
+                    {
+                      "UID1:8": "forestry.flowersVanilla",
+                      "UID0:8": "forestry.flowersVanilla",
+                      "Slot:4": 10
+                    },
+                    {
+                      "UID1:8": "forestry.floweringSlower",
+                      "UID0:8": "forestry.floweringSlower",
+                      "Slot:4": 11
+                    },
+                    {
+                      "UID1:8": "forestry.territoryAverage",
+                      "UID0:8": "forestry.territoryAverage",
+                      "Slot:4": 12
+                    },
+                    {
+                      "UID1:8": "forestry.effectNone",
+                      "UID0:8": "forestry.effectNone",
+                      "Slot:4": 13
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         57
       ]
@@ -2577,7 +2897,95 @@
         "Damage": 3
       },
       "visibility": "HIDDEN",
-      "tasks": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Forestry:sapling",
+              "Count": 100,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "IsAnalyzed:4": 0,
+                "Genome:10": {
+                  "Chromosomes:9": [
+                    {
+                      "UID1:8": "forestry.treeDate",
+                      "UID0:8": "forestry.treeDate",
+                      "Slot:4": 0
+                    },
+                    {
+                      "UID1:8": "forestry.growthLightlevel",
+                      "UID0:8": "forestry.growthLightlevel",
+                      "Slot:4": 1
+                    },
+                    {
+                      "UID1:8": "forestry.heightAverage",
+                      "UID0:8": "forestry.heightAverage",
+                      "Slot:4": 2
+                    },
+                    {
+                      "UID1:8": "forestry.saplingsLow",
+                      "UID0:8": "forestry.saplingsLow",
+                      "Slot:4": 3
+                    },
+                    {
+                      "UID1:8": "forestry.fruitDates",
+                      "UID0:8": "forestry.fruitDates",
+                      "Slot:4": 4
+                    },
+                    {
+                      "UID1:8": "forestry.yieldLow",
+                      "UID0:8": "forestry.yieldLow",
+                      "Slot:4": 5
+                    },
+                    {
+                      "UID1:8": "forestry.plantTypeNone",
+                      "UID0:8": "forestry.plantTypeNone",
+                      "Slot:4": 6
+                    },
+                    {
+                      "UID1:8": "forestry.sappinessLow",
+                      "UID0:8": "forestry.sappinessLow",
+                      "Slot:4": 7
+                    },
+                    {
+                      "UID1:8": "forestry.territoryAverage",
+                      "UID0:8": "forestry.territoryAverage",
+                      "Slot:4": 8
+                    },
+                    {
+                      "UID1:8": "forestry.leavesNone",
+                      "UID0:8": "forestry.leavesNone",
+                      "Slot:4": 9
+                    },
+                    {
+                      "UID1:8": "forestry.maturationAverage",
+                      "UID0:8": "forestry.maturationAverage",
+                      "Slot:4": 10
+                    },
+                    {
+                      "UID1:8": "forestry.i1d",
+                      "UID0:8": "forestry.i1d",
+                      "Slot:4": 11
+                    },
+                    {
+                      "UID1:8": "forestry.fireproofFalse",
+                      "UID0:8": "forestry.fireproofFalse",
+                      "Slot:4": 12
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
       "rewards": [],
       "preRequisites": [
         57
@@ -3199,7 +3607,23 @@
         "Damage": 0
       },
       "visibility": "NORMAL",
-      "tasks": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gendustry:LiquidDNACan",
+              "Count": 100,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
       "rewards": [],
       "preRequisites": [
         31
@@ -7473,10 +7897,10 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "gregtech:gt.metaitem.01",
+        "id": "RotaryCraft:rotarycraft_item_shaftcraft",
         "Count": 1,
         "OreDict": "",
-        "Damage": 2019
+        "Damage": 10
       },
       "visibility": "NORMAL",
       "tasks": [
@@ -7611,8 +8035,8 @@
     },
     {
       "questID": 105,
-      "name": "New Quest",
-      "description": "No Description",
+      "name": "Deeper Mines",
+      "description": "Expand the Mines to get access to deeper Oreveins. ",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -7629,22 +8053,175 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "minecraft:nether_star",
+        "id": "RotaryCraft:rotarycraft_item_borecraft",
         "Count": 1,
         "OreDict": "",
         "Damage": 0
       },
       "visibility": "NORMAL",
-      "tasks": [],
-      "rewards": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "RotaryCraft:rotarycraft_item_borecraft",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "IC2:blockMiningPipe",
+              "Count": 100,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1141
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 100,
+              "OreDict": "",
+              "Damage": 5170
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32003
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "consume": true,
+          "autoConsume": false,
+          "requiredFluids": [
+            {
+              "FluidName": "liquid_drillingfluid",
+              "Amount": 300000
+            }
+          ],
+          "taskID": "bq_standard:fluid"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "IGCore:gt.metaitem.04",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32050
+            },
+            {
+              "id": "IGCore:gt.metaitem.04",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32043
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         62
       ]
     },
     {
       "questID": 106,
-      "name": "New Quest",
-      "description": "No Description",
+      "name": "Exploration for ores",
+      "description": "Send out searchgroups to prospect for new oreveins. ",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": 18000,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "JsonLootBags:ItemLootBag",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "type:8": "OreMines"
+        }
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 32003
+            },
+            {
+              "id": "IC2:itemTinCanFilled",
+              "Count": 200,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.blockmachines",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1156
+            },
+            {
+              "id": "IC2:itemDynamite",
+              "Count": 200,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "JsonLootBags:ItemLootBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "type:8": "OreMines"
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        62
+      ]
+    },
+    {
+      "questID": 107,
+      "name": "Trading with Chemicals",
+      "description": "After gaining knowlage on chemical processing machines it is now time to enter the trade.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -7661,16 +8238,854 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "minecraft:nether_star",
+        "id": "IGCore:gt.metaitem.04",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32063
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32003
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "IGCore:gt.metaitem.04",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32063
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        101
+      ]
+    },
+    {
+      "questID": 108,
+      "name": "Market expansion",
+      "description": "The market is already making a lot of money only with basic trades. Time to expand to sell more complex stuff.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IGCore:gt.metaitem.04",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32068
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.blockconcretes",
+              "Count": 800,
+              "OreDict": "",
+              "Damage": 15
+            },
+            {
+              "id": "ImmersiveEngineering:coil",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "TConstruct:GlassPane",
+              "Count": 1000,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "chisel:nether_brick",
+              "Count": 500,
+              "OreDict": "",
+              "Damage": 15
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "IGCore:gt.metaitem.04",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32068
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        66
+      ]
+    },
+    {
+      "questID": 109,
+      "name": "Salt",
+      "description": "Bring some spice in your life.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IGCore:gt.metaitem.04",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32032
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 32002
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "IGCore:gt.metaitem.04",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32032
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        62
+      ]
+    },
+    {
+      "questID": 110,
+      "name": "Galena",
+      "description": "...",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IGCore:gt.metaitem.04",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32048
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32003
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "IGCore:gt.metaitem.04",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32048
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        62
+      ]
+    },
+    {
+      "questID": 111,
+      "name": "Tetrahedrite",
+      "description": "Another orevein...",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IGCore:gt.metaitem.04",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32027
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32003
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "IGCore:gt.metaitem.04",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32027
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        62
+      ]
+    },
+    {
+      "questID": 112,
+      "name": "Lapis",
+      "description": "Build a Lapis Mine.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IGCore:gt.metaitem.04",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32049
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32003
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "IGCore:gt.metaitem.04",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32049
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        62
+      ]
+    },
+    {
+      "questID": 113,
+      "name": "Soapstone",
+      "description": "Just some unusual sort of stone.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IGCore:gt.metaitem.04",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32034
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 32002
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "IGCore:gt.metaitem.04",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32034
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        53
+      ]
+    },
+    {
+      "questID": 114,
+      "name": "Sulfur",
+      "description": "A Vein of Sulfur.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IGCore:gt.metaitem.04",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32029
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32003
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "IGCore:gt.metaitem.04",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32029
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        53
+      ]
+    },
+    {
+      "questID": 115,
+      "name": "The deepest Ore",
+      "description": "The drilling team found a place where they can digg even deeper. If they get the right tools.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IGCore:gt.metaitem.04",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32028
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IC2:blockMiningPipe",
+              "Count": 200,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "RotaryCraft:rotarycraft_item_borecraft",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32003
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "IGCore:gt.metaitem.04",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32028
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        105
+      ]
+    },
+    {
+      "questID": 116,
+      "name": "Sapphires",
+      "description": "...",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IGCore:gt.metaitem.04",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32042
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 32003
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "IGCore:gt.metaitem.04",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32042
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        105
+      ]
+    },
+    {
+      "questID": 117,
+      "name": "Molybden",
+      "description": "...",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IGCore:gt.metaitem.04",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32040
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32003
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "IGCore:gt.metaitem.04",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32040
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        105
+      ]
+    },
+    {
+      "questID": 118,
+      "name": "Diamonds!",
+      "description": "A Diamond Vein was found!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IGCore:gt.metaitem.04",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32045
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32004
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "IGCore:gt.metaitem.04",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32045
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        105
+      ]
+    },
+    {
+      "questID": 119,
+      "name": "Scheelite",
+      "description": "...",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "IGCore:gt.metaitem.04",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 32041
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 32003
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "IGCore:gt.metaitem.04",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32041
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        105
+      ]
+    },
+    {
+      "questID": 120,
+      "name": "Apatite",
+      "description": "The Beekeeper found a Vein of apatite while taking care of his bees. He will sell you the mining rights.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Forestry:apatite",
         "Count": 1,
         "OreDict": "",
         "Damage": 0
       },
       "visibility": "NORMAL",
-      "tasks": [],
-      "rewards": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "gregtech:gt.metaitem.01",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 32002
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "IGCore:gt.metaitem.04",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32047
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
-        62
+        31
       ]
     }
   ],
@@ -7896,16 +9311,6 @@
           "y": 180
         },
         {
-          "id": 31,
-          "x": 210,
-          "y": 234
-        },
-        {
-          "id": 32,
-          "x": 210,
-          "y": 204
-        },
-        {
           "id": 34,
           "x": 114,
           "y": 186
@@ -7929,11 +9334,6 @@
           "id": 43,
           "x": 0,
           "y": 144
-        },
-        {
-          "id": 44,
-          "x": 240,
-          "y": 234
         },
         {
           "id": 45,
@@ -8126,6 +9526,11 @@
           "id": 44,
           "x": 114,
           "y": 180
+        },
+        {
+          "id": 120,
+          "x": 78,
+          "y": 144
         }
       ]
     },
@@ -8172,6 +9577,16 @@
           "id": 103,
           "x": 96,
           "y": 24
+        },
+        {
+          "id": 107,
+          "x": 24,
+          "y": 108
+        },
+        {
+          "id": 108,
+          "x": -24,
+          "y": 108
         }
       ]
     },
@@ -8181,58 +9596,113 @@
       "quests": [
         {
           "id": 53,
-          "x": 84,
+          "x": 156,
           "y": 0
         },
         {
           "id": 59,
-          "x": 84,
+          "x": 156,
           "y": 42
         },
         {
           "id": 60,
-          "x": 126,
+          "x": 198,
           "y": 42
         },
         {
           "id": 61,
-          "x": 42,
+          "x": 114,
           "y": 42
         },
         {
           "id": 62,
-          "x": 84,
-          "y": 84
+          "x": 162,
+          "y": 102
         },
         {
           "id": 63,
-          "x": 168,
+          "x": 240,
           "y": 42
         },
         {
           "id": 64,
-          "x": 0,
+          "x": 72,
           "y": 42
         },
         {
           "id": 65,
-          "x": 84,
-          "y": 126
+          "x": 162,
+          "y": 156
         },
         {
           "id": 98,
-          "x": 126,
-          "y": 126
+          "x": 162,
+          "y": 192
         },
         {
           "id": 105,
-          "x": 6,
-          "y": 126
+          "x": 48,
+          "y": 144
         },
         {
           "id": 106,
+          "x": 246,
+          "y": 78
+        },
+        {
+          "id": 109,
+          "x": 78,
+          "y": 84
+        },
+        {
+          "id": 110,
+          "x": 96,
+          "y": 156
+        },
+        {
+          "id": 111,
           "x": 222,
+          "y": 162
+        },
+        {
+          "id": 112,
+          "x": 264,
           "y": 126
+        },
+        {
+          "id": 113,
+          "x": 240,
+          "y": 0
+        },
+        {
+          "id": 114,
+          "x": 72,
+          "y": 0
+        },
+        {
+          "id": 115,
+          "x": 60,
+          "y": 186
+        },
+        {
+          "id": 116,
+          "x": 18,
+          "y": 186
+        },
+        {
+          "id": 117,
+          "x": 0,
+          "y": 144
+        },
+        {
+          "id": 118,
+          "x": 66,
+          "y": 114
+        },
+        {
+          "id": 119,
+          "x": 18,
+          "y": 108
         }
       ]
     },

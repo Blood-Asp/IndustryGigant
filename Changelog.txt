@@ -4,10 +4,12 @@ Added JSON Loot Bags
 Expoding GT machines now drop contained Items. Makes licence loss much less likely.
 Fix some alloys not working in smeltery.
 Add TinAlloy to smeltery.
-Disabled RC Rolling Bench
-Finish Void World mode
+Disabled RC Rolling Bench.
+Finish Void World mode.
 Fix blaze rod processing exploid.
 Added quests for first Aluminium and Blaze.
+Added new Trades.
+Added almost all ore trade licence quests.
 
 
 Industry Gigant 0.4.0
