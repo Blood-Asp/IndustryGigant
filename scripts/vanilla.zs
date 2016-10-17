@@ -54,6 +54,12 @@ potionHealing.add(<minecraft:potion:8229>);
 //gemNetherQuartz.add(<appliedenergistics2:item.ItemMultiMaterial:11>);
 
 # Recipes Tweaks
+recipes.addShaped(<Magneticraft:crushing_table>, [
+	[<ore:stone>, <ore:stone>, <ore:stone>],
+	[logWood, logWood, logWood],
+	[logWood, null, logWood]]);
+
+
 recipes.remove(chestEnder);
 recipes.addShaped(chestEnder, [
 	[plateObsidian, plateObsidian, plateObsidian],
